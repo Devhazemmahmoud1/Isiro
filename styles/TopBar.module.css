@@ -1,0 +1,1028 @@
+.flag {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+    background: no-repeat center/100% 100%;
+    vertical-align: bottom;
+    font-style: normal;
+}
+.flag-ad {
+    background-image: url("../public/img/flags/ad.png");
+}
+
+.flag-ae {
+    background-image: url("../public/img/flags/ae.png");
+}
+
+.flag-af {
+    background-image: url("../public/img/flags/af.png");
+}
+
+.flag-ag {
+    background-image: url("../public/img/flags/ag.png");
+}
+
+.flag-ai {
+    background-image: url("../public/img/flags/ai.png");
+}
+
+.flag-al {
+    background-image: url("../public/img/flags/al.png");
+}
+
+.flag-am {
+    background-image: url("../public/img/flags/am.png");
+}
+
+.flag-ao {
+    background-image: url("../public/img/flags/ao.png");
+}
+
+/* .flag-aq {
+    background-image: url("../public/img/flags/aq.png");
+} */
+
+.flag-ar {
+    background-image: url("../public/img/flags/ar.png");
+}
+
+.flag-as {
+    background-image: url("../public/img/flags/as.png");
+}
+
+.flag-at {
+    background-image: url("../public/img/flags/at.png");
+}
+
+.flag-au {
+    background-image: url("../public/img/flags/au.png");
+}
+
+.flag-aw {
+    background-image: url("../public/img/flags/aw.png");
+}
+
+.flag-ax {
+    background-image: url("../public/img/flags/ax.png");
+}
+
+.flag-az {
+    background-image: url("../public/img/flags/az.png");
+}
+
+.flag-ba {
+    background-image: url("../public/img/flags/ba.png");
+}
+
+.flag-bb {
+    background-image: url("../public/img/flags/bb.png");
+}
+
+.flag-bd {
+    background-image: url("../public/img/flags/bd.png");
+}
+
+.flag-be {
+    background-image: url("../public/img/flags/be.png");
+}
+
+.flag-bf {
+    background-image: url("../public/img/flags/bf.png");
+}
+
+.flag-bg {
+    background-image: url("../public/img/flags/bg.png");
+}
+
+.flag-bh {
+    background-image: url("../public/img/flags/bh.png");
+}
+
+.flag-bi {
+    background-image: url("../public/img/flags/bi.png");
+}
+
+.flag-bj {
+    background-image: url("../public/img/flags/bj.png");
+}
+
+.flag-bl {
+    background-image: url("../public/img/flags/bl.png");
+}
+
+.flag-bm {
+    background-image: url("../public/img/flags/bm.png");
+}
+
+.flag-bn {
+    background-image: url("../public/img/flags/bn.png");
+}
+
+.flag-bo {
+    background-image: url("../public/img/flags/bo.png");
+}
+
+.flag-bq {
+    background-image: url("../public/img/flags/bq.png");
+}
+
+.flag-br {
+    background-image: url("../public/img/flags/br.png");
+}
+
+.flag-bs {
+    background-image: url("../public/img/flags/bs.png");
+}
+
+.flag-bt {
+    background-image: url("../public/img/flags/bt.png");
+}
+
+.flag-bv {
+    background-image: url("../public/img/flags/bv.png");
+}
+
+.flag-bw {
+    background-image: url("../public/img/flags/bw.png");
+}
+
+.flag-by {
+    background-image: url("../public/img/flags/by.png");
+}
+
+.flag-bz {
+    background-image: url("../public/img/flags/bz.png");
+}
+
+.flag-ca {
+    background-image: url("../public/img/flags/ca.png");
+}
+
+.flag-cc {
+    background-image: url("../public/img/flags/cc.png");
+}
+
+.flag-cd {
+    background-image: url("../public/img/flags/cd.png");
+}
+
+.flag-cf {
+    background-image: url("../public/img/flags/cf.png");
+}
+
+.flag-cg {
+    background-image: url("../public/img/flags/cg.png");
+}
+
+.flag-ch {
+    background-image: url("../public/img/flags/ch.png");
+}
+
+.flag-ci {
+    background-image: url("../public/img/flags/ci.png");
+}
+
+.flag-ck {
+    background-image: url("../public/img/flags/ck.png");
+}
+
+.flag-cl {
+    background-image: url("../public/img/flags/cl.png");
+}
+
+.flag-cm {
+    background-image: url("../public/img/flags/cm.png");
+}
+
+.flag-cn {
+    background-image: url("../public/img/flags/cn.png");
+}
+
+.flag-co {
+    background-image: url("../public/img/flags/co.png");
+}
+
+.flag-cr {
+    background-image: url("../public/img/flags/cr.png");
+}
+
+.flag-cu {
+    background-image: url("../public/img/flags/cu.png");
+}
+
+.flag-cv {
+    background-image: url("../public/img/flags/cv.png");
+}
+
+.flag-cw {
+    background-image: url("../public/img/flags/cw.png");
+}
+
+.flag-cx {
+    background-image: url("../public/img/flags/cx.png");
+}
+
+.flag-cy {
+    background-image: url("../public/img/flags/cy.png");
+}
+
+.flag-cz {
+    background-image: url("../public/img/flags/cz.png");
+}
+
+.flag-de {
+    background-image: url("../public/img/flags/de.png");
+}
+
+.flag-dj {
+    background-image: url("../public/img/flags/dj.png");
+}
+
+.flag-dk {
+    background-image: url("../public/img/flags/dk.png");
+}
+
+.flag-dm {
+    background-image: url("../public/img/flags/dm.png");
+}
+
+.flag-do {
+    background-image: url("../public/img/flags/do.png");
+}
+
+.flag-dz {
+    background-image: url("../public/img/flags/dz.png");
+}
+
+.flag-ec {
+    background-image: url("../public/img/flags/ec.png");
+}
+
+.flag-ee {
+    background-image: url("../public/img/flags/ee.png");
+}
+
+.flag-eg {
+    background-image: url("../public/img/flags/eg.png");
+}
+
+/* .flag-eh {
+    background-image: url("../public/img/flags/eh.png");
+} */
+
+.flag-er {
+    background-image: url("../public/img/flags/er.png");
+}
+
+.flag-es {
+    background-image: url("../public/img/flags/es.png");
+}
+
+.flag-et {
+    background-image: url("../public/img/flags/et.png");
+}
+
+/* .flag-eu {
+    background-image: url("../public/img/flags/eu.png");
+} */
+
+.flag-fi {
+    background-image: url("../public/img/flags/fi.png");
+}
+
+.flag-fj {
+    background-image: url("../public/img/flags/fj.png");
+}
+
+.flag-fk {
+    background-image: url("../public/img/flags/fk.png");
+}
+
+.flag-fm {
+    background-image: url("../public/img/flags/fm.png");
+}
+
+.flag-fo {
+    background-image: url("../public/img/flags/fo.png");
+}
+
+.flag-fr {
+    background-image: url("../public/img/flags/fr.png");
+}
+
+.flag-ga {
+    background-image: url("../public/img/flags/ga.png");
+}
+
+/* .flag-gb-eng {
+    background-image: url("../public/img/flags/gb-eng.png");
+} */
+
+/* .flag-gb-nir {
+    background-image: url("../public/img/flags/gb-nir.png");
+} */
+
+/* .flag-gb-sct {
+    background-image: url("../public/img/flags/gb-sct.png");
+} */
+
+/* .flag-gb-wls {
+    background-image: url("../public/img/flags/gb-wls.png");
+} */
+
+.flag-gb {
+    background-image: url("../public/img/flags/gb.png");
+}
+
+.flag-gd {
+    background-image: url("../public/img/flags/gd.png");
+}
+
+.flag-ge {
+    background-image: url("../public/img/flags/ge.png");
+}
+
+.flag-gf {
+    background-image: url("../public/img/flags/gf.png");
+}
+
+.flag-gg {
+    background-image: url("../public/img/flags/gg.png");
+}
+
+.flag-gh {
+    background-image: url("../public/img/flags/gh.png");
+}
+
+.flag-gi {
+    background-image: url("../public/img/flags/gi.png");
+}
+
+.flag-gl {
+    background-image: url("../public/img/flags/gl.png");
+}
+
+.flag-gm {
+    background-image: url("../public/img/flags/gm.png");
+}
+
+.flag-gn {
+    background-image: url("../public/img/flags/gn.png");
+}
+
+.flag-gp {
+    background-image: url("../public/img/flags/gp.png");
+}
+
+.flag-gq {
+    background-image: url("../public/img/flags/gq.png");
+}
+
+.flag-gr {
+    background-image: url("../public/img/flags/gr.png");
+}
+
+.flag-gs {
+    background-image: url("../public/img/flags/gs.png");
+}
+
+.flag-gt {
+    background-image: url("../public/img/flags/gt.png");
+}
+
+.flag-gu {
+    background-image: url("../public/img/flags/gu.png");
+}
+
+.flag-gw {
+    background-image: url("../public/img/flags/gw.png");
+}
+
+.flag-gy {
+    background-image: url("../public/img/flags/gy.png");
+}
+
+.flag-hk {
+    background-image: url("../public/img/flags/hk.png");
+}
+
+/* .flag-hm {
+    background-image: url("../public/img/flags/hm.png");
+} */
+
+.flag-hn {
+    background-image: url("../public/img/flags/hn.png");
+}
+
+.flag-hr {
+    background-image: url("../public/img/flags/hr.png");
+}
+
+.flag-ht {
+    background-image: url("../public/img/flags/ht.png");
+}
+
+.flag-hu {
+    background-image: url("../public/img/flags/hu.png");
+}
+
+.flag-id {
+    background-image: url("../public/img/flags/id.png");
+}
+
+.flag-ie {
+    background-image: url("../public/img/flags/ie.png");
+}
+
+.flag-il {
+    background-image: url("../public/img/flags/il.png");
+}
+
+.flag-im {
+    background-image: url("../public/img/flags/im.png");
+}
+
+.flag-in {
+    background-image: url("../public/img/flags/in.png");
+}
+
+.flag-io {
+    background-image: url("../public/img/flags/io.png");
+}
+
+.flag-iq {
+    background-image: url("../public/img/flags/iq.png");
+}
+
+.flag-ir {
+    background-image: url("../public/img/flags/ir.png");
+}
+
+.flag-is {
+    background-image: url("../public/img/flags/is.png");
+}
+
+.flag-it {
+    background-image: url("../public/img/flags/it.png");
+}
+
+.flag-je {
+    background-image: url("../public/img/flags/je.png");
+}
+
+.flag-jm {
+    background-image: url("../public/img/flags/jm.png");
+}
+
+.flag-jo {
+    background-image: url("../public/img/flags/jo.png");
+}
+
+.flag-jp {
+    background-image: url("../public/img/flags/jp.png");
+}
+
+.flag-ke {
+    background-image: url("../public/img/flags/ke.png");
+}
+
+.flag-kg {
+    background-image: url("../public/img/flags/kg.png");
+}
+
+.flag-kh {
+    background-image: url("../public/img/flags/kh.png");
+}
+
+.flag-ki {
+    background-image: url("../public/img/flags/ki.png");
+}
+
+.flag-km {
+    background-image: url("../public/img/flags/km.png");
+}
+
+.flag-kn {
+    background-image: url("../public/img/flags/kn.png");
+}
+
+.flag-kp {
+    background-image: url("../public/img/flags/kp.png");
+}
+
+.flag-kr {
+    background-image: url("../public/img/flags/kr.png");
+}
+
+.flag-kw {
+    background-image: url("../public/img/flags/kw.png");
+}
+
+.flag-ky {
+    background-image: url("../public/img/flags/ky.png");
+}
+
+.flag-kz {
+    background-image: url("../public/img/flags/kz.png");
+}
+
+.flag-la {
+    background-image: url("../public/img/flags/la.png");
+}
+
+.flag-lb {
+    background-image: url("../public/img/flags/lb.png");
+}
+
+.flag-lc {
+    background-image: url("../public/img/flags/lc.png");
+}
+
+.flag-li {
+    background-image: url("../public/img/flags/li.png");
+}
+
+.flag-lk {
+    background-image: url("../public/img/flags/lk.png");
+}
+
+.flag-lr {
+    background-image: url("../public/img/flags/lr.png");
+}
+
+.flag-ls {
+    background-image: url("../public/img/flags/ls.png");
+}
+
+.flag-lt {
+    background-image: url("../public/img/flags/lt.png");
+}
+
+.flag-lu {
+    background-image: url("../public/img/flags/lu.png");
+}
+
+.flag-lv {
+    background-image: url("../public/img/flags/lv.png");
+}
+
+.flag-ly {
+    background-image: url("../public/img/flags/ly.png");
+}
+
+.flag-ma {
+    background-image: url("../public/img/flags/ma.png");
+}
+
+.flag-mc {
+    background-image: url("../public/img/flags/mc.png");
+}
+
+.flag-md {
+    background-image: url("../public/img/flags/md.png");
+}
+
+.flag-me {
+    background-image: url("../public/img/flags/me.png");
+}
+
+/* .flag-mf {
+    background-image: url("../public/img/flags/mf.png");
+} */
+
+.flag-mg {
+    background-image: url("../public/img/flags/mg.png");
+}
+
+/* .flag-mh {
+    background-image: url("../public/img/flags/mh.png");
+} */
+
+.flag-mk {
+    background-image: url("../public/img/flags/mk.png");
+}
+
+.flag-ml {
+    background-image: url("../public/img/flags/ml.png");
+}
+
+.flag-mm {
+    background-image: url("../public/img/flags/mm.png");
+}
+
+.flag-mn {
+    background-image: url("../public/img/flags/mn.png");
+}
+
+.flag-mo {
+    background-image: url("../public/img/flags/mo.png");
+}
+
+.flag-mp {
+    background-image: url("../public/img/flags/mp.png");
+}
+
+.flag-mq {
+    background-image: url("../public/img/flags/mq.png");
+}
+
+.flag-mr {
+    background-image: url("../public/img/flags/mr.png");
+}
+
+.flag-ms {
+    background-image: url("../public/img/flags/ms.png");
+}
+
+.flag-mt {
+    background-image: url("../public/img/flags/mt.png");
+}
+
+.flag-mu {
+    background-image: url("../public/img/flags/mu.png");
+}
+
+.flag-mv {
+    background-image: url("../public/img/flags/mv.png");
+}
+
+.flag-mw {
+    background-image: url("../public/img/flags/mw.png");
+}
+
+.flag-mx {
+    background-image: url("../public/img/flags/mx.png");
+}
+
+.flag-my {
+    background-image: url("../public/img/flags/my.png");
+}
+
+.flag-mz {
+    background-image: url("../public/img/flags/mz.png");
+}
+
+.flag-na {
+    background-image: url("../public/img/flags/na.png");
+}
+
+.flag-nc {
+    background-image: url("../public/img/flags/nc.png");
+}
+
+.flag-ne {
+    background-image: url("../public/img/flags/ne.png");
+}
+
+.flag-nf {
+    background-image: url("../public/img/flags/nf.png");
+}
+
+.flag-ng {
+    background-image: url("../public/img/flags/ng.png");
+}
+
+.flag-ni {
+    background-image: url("../public/img/flags/ni.png");
+}
+
+.flag-nl {
+    background-image: url("../public/img/flags/nl.png");
+}
+
+.flag-no {
+    background-image: url("../public/img/flags/no.png");
+}
+
+.flag-np {
+    background-image: url("../public/img/flags/np.png");
+}
+
+.flag-nr {
+    background-image: url("../public/img/flags/nr.png");
+}
+
+.flag-nu {
+    background-image: url("../public/img/flags/nu.png");
+}
+
+.flag-nz {
+    background-image: url("../public/img/flags/nz.png");
+}
+
+.flag-om {
+    background-image: url("../public/img/flags/om.png");
+}
+
+.flag-pa {
+    background-image: url("../public/img/flags/pa.png");
+}
+
+.flag-pe {
+    background-image: url("../public/img/flags/pe.png");
+}
+
+.flag-pf {
+    background-image: url("../public/img/flags/pf.png");
+}
+
+.flag-pg {
+    background-image: url("../public/img/flags/pg.png");
+}
+
+.flag-ph {
+    background-image: url("../public/img/flags/ph.png");
+}
+
+.flag-pk {
+    background-image: url("../public/img/flags/pk.png");
+}
+
+.flag-pl {
+    background-image: url("../public/img/flags/pl.png");
+}
+
+.flag-pm {
+    background-image: url("../public/img/flags/pm.png");
+}
+
+.flag-pn {
+    background-image: url("../public/img/flags/pn.png");
+}
+
+.flag-pr {
+    background-image: url("../public/img/flags/pr.png");
+}
+
+.flag-ps {
+    background-image: url("../public/img/flags/ps.png");
+}
+
+.flag-pt {
+    background-image: url("../public/img/flags/pt.png");
+}
+
+.flag-pw {
+    background-image: url("../public/img/flags/pw.png");
+}
+
+.flag-py {
+    background-image: url("../public/img/flags/py.png");
+}
+
+.flag-qa {
+    background-image: url("../public/img/flags/qa.png");
+}
+
+.flag-re {
+    background-image: url("../public/img/flags/re.png");
+}
+
+.flag-ro {
+    background-image: url("../public/img/flags/ro.png");
+}
+
+.flag-rs {
+    background-image: url("../public/img/flags/rs.png");
+}
+
+.flag-ru {
+    background-image: url("../public/img/flags/ru.png");
+}
+
+.flag-rw {
+    background-image: url("../public/img/flags/rw.png");
+}
+
+.flag-sa {
+    background-image: url("../public/img/flags/sa.png");
+}
+
+.flag-sb {
+    background-image: url("../public/img/flags/sb.png");
+}
+
+.flag-sc {
+    background-image: url("../public/img/flags/sc.png");
+}
+
+.flag-sd {
+    background-image: url("../public/img/flags/sd.png");
+}
+
+.flag-se {
+    background-image: url("../public/img/flags/se.png");
+}
+
+.flag-sg {
+    background-image: url("../public/img/flags/sg.png");
+}
+
+.flag-sh {
+    background-image: url("../public/img/flags/sh.png");
+}
+
+.flag-si {
+    background-image: url("../public/img/flags/si.png");
+}
+
+/* .flag-sj {
+    background-image: url("../public/img/flags/sj.png");
+} */
+
+.flag-sk {
+    background-image: url("../public/img/flags/sk.png");
+}
+
+.flag-sl {
+    background-image: url("../public/img/flags/sl.png");
+}
+
+.flag-sm {
+    background-image: url("../public/img/flags/sm.png");
+}
+
+.flag-sn {
+    background-image: url("../public/img/flags/sn.png");
+}
+
+.flag-so {
+    background-image: url("../public/img/flags/so.png");
+}
+
+.flag-sr {
+    background-image: url("../public/img/flags/sr.png");
+}
+
+.flag-ss {
+    background-image: url("../public/img/flags/ss.png");
+}
+
+.flag-st {
+    background-image: url("../public/img/flags/st.png");
+}
+
+.flag-sv {
+    background-image: url("../public/img/flags/sv.png");
+}
+
+.flag-sx {
+    background-image: url("../public/img/flags/sx.png");
+}
+
+.flag-sy {
+    background-image: url("../public/img/flags/sy.png");
+}
+
+.flag-sz {
+    background-image: url("../public/img/flags/sz.png");
+}
+
+.flag-tc {
+    background-image: url("../public/img/flags/tc.png");
+}
+
+.flag-td {
+    background-image: url("../public/img/flags/td.png");
+}
+
+.flag-tf {
+    background-image: url("../public/img/flags/tf.png");
+}
+
+.flag-tg {
+    background-image: url("../public/img/flags/tg.png");
+}
+
+.flag-th {
+    background-image: url("../public/img/flags/th.png");
+}
+
+.flag-tj {
+    background-image: url("../public/img/flags/tj.png");
+}
+
+.flag-tk {
+    background-image: url("../public/img/flags/tk.png");
+}
+
+.flag-tl {
+    background-image: url("../public/img/flags/tl.png");
+}
+
+.flag-tm {
+    background-image: url("../public/img/flags/tm.png");
+}
+
+.flag-tn {
+    background-image: url("../public/img/flags/tn.png");
+}
+
+.flag-to {
+    background-image: url("../public/img/flags/to.png");
+}
+
+.flag-tr {
+    background-image: url("../public/img/flags/tr.png");
+}
+
+.flag-tt {
+    background-image: url("../public/img/flags/tt.png");
+}
+
+.flag-tv {
+    background-image: url("../public/img/flags/tv.png");
+}
+
+.flag-tw {
+    background-image: url("../public/img/flags/tw.png");
+}
+
+.flag-tz {
+    background-image: url("../public/img/flags/tz.png");
+}
+
+.flag-ua {
+    background-image: url("../public/img/flags/ua.png");
+}
+
+.flag-ug {
+    background-image: url("../public/img/flags/ug.png");
+}
+
+.flag-um {
+    background-image: url("../public/img/flags/um.png");
+}
+
+/* .flag-un {
+    background-image: url("../public/img/flags/un.png");
+} */
+
+.flag-us {
+    background-image: url("../public/img/flags/us.png");
+}
+
+.flag-uy {
+    background-image: url("../public/img/flags/uy.png");
+}
+
+.flag-uz {
+    background-image: url("../public/img/flags/uz.png");
+}
+
+.flag-va {
+    background-image: url("../public/img/flags/va.png");
+}
+
+.flag-vc {
+    background-image: url("../public/img/flags/vc.png");
+}
+
+.flag-ve {
+    background-image: url("../public/img/flags/ve.png");
+}
+
+.flag-vg {
+    background-image: url("../public/img/flags/vg.png");
+}
+
+.flag-vi {
+    background-image: url("../public/img/flags/vi.png");
+}
+
+.flag-vn {
+    background-image: url("../public/img/flags/vn.png");
+}
+
+.flag-vu {
+    background-image: url("../public/img/flags/vu.png");
+}
+
+.flag-wf {
+    background-image: url("../public/img/flags/wf.png");
+}
+
+.flag-ws {
+    background-image: url("../public/img/flags/ws.png");
+}
+
+.flag-ye {
+    background-image: url("../public/img/flags/ye.png");
+}
+
+.flag-yt {
+    background-image: url("../public/img/flags/yt.png");
+}
+
+.flag-za {
+    background-image: url("../public/img/flags/za.png");
+}
+
+.flag-zm {
+    background-image: url("../public/img/flags/zm.png");
+}
+
+.flag-zw {
+    background-image: url("../public/img/flags/zw.png");
+}
+
