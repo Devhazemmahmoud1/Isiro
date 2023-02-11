@@ -1,0 +1,16 @@
+.register-wrapper {
+    width: 600px!important;
+    max-width: 600px!important;
+}
+
+.error {
+    color: red;
+    font-size: 11px;
+    position: absolute;
+    margin-left: 5px;
+    font-size: 100;
+}
+
+.regMessage {
+    font-size: 13px;
+}

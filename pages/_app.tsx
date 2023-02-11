@@ -31,9 +31,13 @@ import "../styles/globals.css";
 import "../public/js/mycustom"
 import type { AppProps } from "next/app";
 import Layout from "../components/layouts/Layout";
+import { useAuth } from "../hooks/AuthHook";
 
 export var url: string = ''
 export default function App({ Component, pageProps }: AppProps) {
+
+  useAuth();
+
   if (typeof window !== 'undefined') {
     window['$'] = window['jQuery'] = require('jquery');
     require('bootstrap/dist/js/bootstrap.min.js')

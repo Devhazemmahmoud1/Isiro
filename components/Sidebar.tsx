@@ -36,22 +36,19 @@ export default function SideBar() {
       };
       var $this = Sidemenu;
 		$('#sidebar-menu a').on('click', function (e) {
-            console.log('heloo')
 			if ($(this).parent().hasClass('submenu')) {
 				e.preventDefault();
 			}
 			if (!$(this).hasClass('subdrop')) {
-                console.log(1)
 				$('ul', $(this).parents('ul:first')).slideUp(350);
 				$('a', $(this).parents('ul:first')).removeClass('subdrop');
 				$(this).next('ul').slideDown(350);
 				$(this).addClass('subdrop');
-                return false;
+        return false;
 			} else {
-                console.log(2)
 				$(this).removeClass('subdrop');
 				$(this).next('ul').slideUp(350);
-                return false
+        return false
 			}
 		});
 		$('#sidebar-menu ul li.submenu a.active').parents('li:last').children('a:first').addClass('active').trigger('click');
@@ -255,7 +252,7 @@ export default function SideBar() {
               </ul>
             </li>
 
-            <li className="submenu <?php echo ($page == 'blogs' || $page == 'pending_blog' || $page == 'add_blog' || $page == 'blog_details' || $page == 'edit_blog' || $page == 'blog_categories')?'active':'';?>">
+            {/* <li className="submenu <?php echo ($page == 'blogs' || $page == 'pending_blog' || $page == 'add_blog' || $page == 'blog_details' || $page == 'edit_blog' || $page == 'blog_categories')?'active':'';?>">
               <a href="#">
                 <i data-feather="grid"></i> <span> Blogs</span>{" "}
                 <span className="menu-arrow"></span>
@@ -300,8 +297,8 @@ export default function SideBar() {
               <a href="settings">
                 <i data-feather="settings"></i> <span>Settings</span>
               </a>
-            </li>
-            <li className="submenu <?php echo ($page == 'chat' || $page == 'calendar' || $page == 'inbox')?'active':'';?>">
+            </li> */}
+            {/* <li className="submenu <?php echo ($page == 'chat' || $page == 'calendar' || $page == 'inbox')?'active':'';?>">
               <a href="#">
                 <i data-feather="grid"></i> <span> Application</span>{" "}
                 <span className="menu-arrow"></span>
@@ -332,7 +329,7 @@ export default function SideBar() {
                   </a>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

@@ -1412,7 +1412,7 @@ button.bg-danger:hover {
 	margin: 0;
 }
 .bank-details .modal-footer {
-	justify-content: end;
+	justify-content: flex-end;
 	padding: 30px;
 }
 .bank-details-btn .btn {
@@ -2442,10 +2442,10 @@ html.menu-opened body {
     margin-bottom: 20px;
 }
 .chat-window .chat-cont-right .chat-body .media.sent .media-body {
-    align-items: flex-end;
+    align-items: flex-flex-end;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: flex-flex-end;
     margin-left: 0;
 }
 .chat-window .chat-cont-right .chat-body .media.sent .media-body .msg-box > div {
@@ -2822,7 +2822,7 @@ html.menu-opened body {
 	z-index: 1001;
 	border-top-right-radius: 20px;
 	box-shadow: 0 0 13px 0 rgba(82,63,105,0.05);
-	overflow-y: scroll;
+	/* overflow-y: scroll; */
 }
 .sidebar.opened {
 	-webkit-transition: all 0.4s ease;
@@ -3880,6 +3880,16 @@ table.table-inbox tbody tr.checked {
 .toggle-password.fa-eye {
     margin-right: 1px;
 }
+
+.toggle-passwords {
+	position: absolute;
+    right: 17px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #757575;
+	cursor: pointer;
+}
+
 .pass-group {
     position: relative;
 }
@@ -5917,7 +5927,7 @@ body[data-layout-mode=dark] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs-o
     justify-content: left;
 }
 .layout:nth-child(2) {
-	justify-content: end;
+	justify-content: flex-end;
 }
 .layout-title {
     font-size: 15px;
@@ -6050,7 +6060,7 @@ body[data-layout-mode=dark] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs-o
     justify-content: left;
 }
 .setting:nth-child(2) {
-	justify-content: end;
+	justify-content: flex-end;
 }
 .switch-one {
 	margin-right: 0px;
@@ -6783,9 +6793,9 @@ body[data-layout-mode=dark] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs-o
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    justify-content: end;
-    -webkit-justify-content: end;
-    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: flex-end;
 }
 .invoices-settings-icon {
 	color: #7638FF;

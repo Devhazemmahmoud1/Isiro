@@ -15,7 +15,7 @@
     "jsx": "preserve",
     "incremental": true,
     // to remove check index errors
-    "suppressImplicitAnyIndexErrors": true,
+    //"suppressImplicitAnyIndexErrors": true,
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "loader.js"],
   "exclude": ["node_modules"]

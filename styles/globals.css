@@ -413,7 +413,7 @@ table.table td,table.table th {
 	font-size: 14px;
 	color: #1B2559;
 	display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
 	margin-bottom: 14px;
 }
@@ -1414,7 +1414,7 @@ button.bg-danger:hover {
 	margin: 0;
 }
 .bank-details .modal-footer {
-	justify-content: end;
+	justify-content: flex-end;
 	padding: 30px;
 }
 .bank-details-btn .btn {
@@ -2824,7 +2824,6 @@ html.menu-opened body {
 	z-index: 1001;
 	border-top-right-radius: 20px;
 	box-shadow: 0 0 13px 0 rgba(82,63,105,0.05);
-	overflow-y: scroll;
 }
 .sidebar.opened {
 	-webkit-transition: all 0.4s ease;
@@ -5919,7 +5918,7 @@ body[data-layout-mode=dark] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs-o
     justify-content: left;
 }
 .layout:nth-child(2) {
-	justify-content: end;
+	justify-content: flex-end;
 }
 .layout-title {
     font-size: 15px;
@@ -6052,7 +6051,7 @@ body[data-layout-mode=dark] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs-o
     justify-content: left;
 }
 .setting:nth-child(2) {
-	justify-content: end;
+	justify-content: flex-end;
 }
 .switch-one {
 	margin-right: 0px;
@@ -6785,9 +6784,9 @@ body[data-layout-mode=dark] .alertify .ajs-footer .ajs-buttons .ajs-button.ajs-o
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    justify-content: end;
-    -webkit-justify-content: end;
-    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: flex-end;
 }
 .invoices-settings-icon {
 	color: #7638FF;
@@ -8285,7 +8284,7 @@ a.comment-btn:hover {
     height: 27px;
 }
 .bank-details .modal-footer.blog-categories-btn {
-    justify-content: start;
+    justify-content: flex-start;
 }
 .blog-categories-btn {
    padding: 20px;
@@ -8752,7 +8751,7 @@ a.comment-btn:hover {
 		top: 0;
 	}
 	.chat-window .chat-cont-right .chat-header {
-		justify-content: start;
+		justify-content: flex-start;
 	}
 	.chat-window .chat-cont-right .chat-header .back-user-list {
 		display: block;
@@ -9028,7 +9027,7 @@ a.comment-btn:hover {
 	}
 	.invoices-settings-btn {
 		margin-top: 20px;
-		justify-content: start;
+		justify-content: flex-start;
 	}
 	.invoices-settings-btn-one {
 		margin-top: 0;

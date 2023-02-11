@@ -1,8 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { Bell, Link } from "react-feather";
+import { useDestroyAuthToken } from "../hooks/AuthTokenHook";
+import { useRouter } from "next/router";
+import { Loading } from "./Loading";
 
 export default function TopBar() {
   const [isOpened, toggleMobileBar] = useState(false);
+  const [loggedOutClicked, setLoggedOutClicked] = useState(false);
+  const router = useRouter();
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -57,8 +62,15 @@ export default function TopBar() {
     }
   };
 
+  const handleLogOut = (): void => {
+    setLoggedOutClicked(true);
+    useDestroyAuthToken();
+    router.push('/login')
+  }
+
   return (
     <div className="header header-one">
+      {loggedOutClicked && <Loading hasBackground={false} />}
       <div className="header-left header-left-one">   
         <a href="/" className="logo">
           <img src="/isiro_logo.png" alt="Logo" />
@@ -270,7 +282,9 @@ export default function TopBar() {
             <a className="dropdown-item" href="settings">
               <i data-feather="settings" className="me-1"></i> Settings
             </a>
-            <a className="dropdown-item" href="index">
+            <a className="dropdown-item" href="#"
+              onClick={handleLogOut}
+            >
               <i data-feather="log-out" className="me-1"></i> Logout
             </a>
           </div>
